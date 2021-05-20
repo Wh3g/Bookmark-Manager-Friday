@@ -23,4 +23,15 @@ describe Bookmark do
             expect(Bookmark.all_bookmarks.length).to eq 0
         end
     end
+
+    describe '.update' do
+        it 'updates a bookmark' do
+            bookmark = Bookmark.add_bookmark(title: 'Test', url: 'http://www.test.com')
+            new_bookmark = Bookmark.update(id: bookmark.id, title: "Update", url: "http://www.update.com")
+
+            expect(new_bookmark.first['id']).to eq bookmark.id
+            expect(new_bookmark.first['title']).to eq "Update"
+            expect(new_bookmark.first['url']).to eq "http://www.update.com"
+        end
+    end
 end

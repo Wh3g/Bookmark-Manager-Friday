@@ -32,6 +32,21 @@ class Bookmarks < Sinatra::Base
         redirect '/bookmarks'
     end
 
+    get '/bookmarks/:id/edit' do
+        @id = params[:id]
+        erb :"bookmarks/edit"
+    end
+
+    patch '/bookmarks/:id' do
+        # if ENV['ENVIRONMENT'] == 'test'
+        #     connection = PG.connect(dbname: 'bookmark_manager_test')
+        # else
+        #     connection = PG.connect(dbname: 'bookmark_manager')
+        # end
+        Bookmark.update(id: params[:id], title: params[:title], url: params[:url])
+        redirect '/bookmarks'
+    end
+
     run! if app_file == $0
     
 end

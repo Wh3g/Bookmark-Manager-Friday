@@ -6,6 +6,7 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           1,
@@ -60,6 +61,7 @@
       "/Users/willoughbyhood/Projects/BookmarkManager/lib/bookmark.rb": {
         "lines": [
           1,
+          1,
           null,
           1,
           null,
@@ -73,11 +75,7 @@
           null,
           1,
           7,
-          7,
           null,
-          0,
-          null,
-          7,
           7,
           15,
           null,
@@ -87,31 +85,45 @@
           9,
           9,
           null,
-          0,
-          null,
-          9,
-          9,
-          null,
           null,
           1,
-          2,
-          2,
-          null,
-          0,
-          null,
           2,
           null,
           null,
           1,
           2,
-          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/willoughbyhood/Projects/BookmarkManager/lib/databaseconnection.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          21,
+          null,
+          null
+        ]
+      },
+      "/Users/willoughbyhood/Projects/BookmarkManager/database_connection_setup.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
           null,
           0,
-          null,
-          2,
-          null,
-          null,
-          null,
           null
         ]
       },
@@ -164,6 +176,37 @@
           1,
           1,
           1,
+          null
+        ]
+      },
+      "/Users/willoughbyhood/Projects/BookmarkManager/spec/databaseconnection_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -255,6 +298,6 @@
         ]
       }
     },
-    "timestamp": 1621528245
+    "timestamp": 1621616745
   }
 }
